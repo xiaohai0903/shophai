@@ -1,0 +1,1 @@
+{"version":3,"sources":["uni-app:///main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA;AACA;AACA,oI;AACAA,UAAU,CAACC,wBAAD,CAAV,C","file":"./pages/adress/shippingaddress/EstablishAdress.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from '././pages/adress/shippingaddress/EstablishAdress.vue'\ncreatePage(Page)"],"sourceRoot":""}

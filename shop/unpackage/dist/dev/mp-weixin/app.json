@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shopcart/shopcart",
+    "pages/my/my",
+    "pages/adress/adress",
+    "pages/search/search",
+    "pages/search/SearchList",
+    "pages/search/SearchListItem",
+    "pages/search/StoreInformation",
+    "pages/evaluation/Evaluation",
+    "pages/order/Order",
+    "pages/chat/HM-chat",
+    "pages/adress/shippingaddress/ShippingAddress",
+    "pages/adress/shippingaddress/NewAdress",
+    "pages/payment/Payment",
+    "pages/communityshop/CommunityShop",
+    "pages/communityshop/CommunityClassification",
+    "pages/communityshop/CommunityStore",
+    "pages/communityshop/CommunityService",
+    "pages/communityshop/Housekeeping",
+    "pages/communityshop/ServiceClassification",
+    "pages/communityshop/HouseLease",
+    "pages/communityshop/OtherService",
+    "pages/communityshop/QuickRelease",
+    "pages/communityshop/PublishProject"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的社区",
+        "iconPath": "static/img/社区.png",
+        "selectedIconPath": "static/img/社区2.png"
+      },
+      {
+        "pagePath": "pages/shopcart/shopcart",
+        "text": "购物车",
+        "iconPath": "static/img/购物车.png",
+        "selectedIconPath": "static/img/购物车2.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人中心",
+        "iconPath": "static/img/个人中心.png",
+        "selectedIconPath": "static/img/个人中心2.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "页面展示效果"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap81.json"
+}

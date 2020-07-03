@@ -1,0 +1,156 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path":"pages/shopcart/shopcart",
+			"style":{
+				"navigationBarTitleText":"购物车"
+			}
+		},
+		{
+			"path":"pages/my/my",
+			"style":{
+				"navigationBarTitleText":"个人中心"
+			}
+		},
+		{
+			"path":"pages/adress/adress",
+			"style":{
+				"navigationBarTitleText":"定位"
+			}
+		},
+		{
+			"path":"pages/search/search",
+			"style":{
+				"navigationBarTitleText":"搜索"
+			}
+		},
+		{
+			"path":"pages/search/SearchList"
+		},
+		{
+			"path":"pages/search/SearchListItem"
+		},
+		{
+			"path":"pages/search/StoreInformation"
+		},
+		{
+			"path":"pages/evaluation/Evaluation"
+		},
+		{
+			"path":"pages/order/Order"
+		},
+		{
+			"path":"pages/chat/HM-chat"
+		},
+		{
+			"path":"pages/adress/shippingaddress/ShippingAddress"
+		},
+		{
+			"path":"pages/adress/shippingaddress/NewAdress"
+		},
+		{
+			"path":"pages/payment/Payment"
+		},
+		{
+			"path":"pages/communityshop/CommunityShop"
+		},
+		{
+			"path":"pages/communityshop/CommunityClassification"
+		},
+		{
+			"path":"pages/communityshop/CommunityStore"
+		},
+		{
+			"path":"pages/communityshop/CommunityService"
+		},
+		{
+			"path":"pages/communityshop/Housekeeping"
+		},
+		{
+			"path":"pages/communityshop/ServiceClassification"
+		},
+		{
+			"path":"pages/communityshop/HouseLease"
+		},
+		{
+			"path":"pages/communityshop/OtherService"
+		},
+		{
+			"path":"pages/communityshop/QuickRelease"
+		},
+		{
+			"path":"pages/communityshop/PublishProject"
+		},
+		{
+			"path":"pages/communityshop/CommunitySearch"
+		},
+		{
+			"path":"pages/communityshop/LoveInquire"
+		},
+		{
+			"path":"pages/communityshop/LoveInquireTwo"
+		},
+		{
+			"path":"pages/communityshop/ExplosiveBuying"
+		},
+		{
+			"path":"pages/my/PersonalCenter"
+		},
+		{
+			"path":"pages/my/MyPost"
+		},
+		{
+			"path":"pages/my/MyComment"
+		},
+		{
+			"path":"pages/my/BrowsingHistory"
+		},
+		{
+			"path":"pages/my/MyCertification"
+		},
+		{
+			"path":"pages/my/MessageCenter"
+		}
+	],
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "我的社区",
+				"iconPath": "static/img/社区.png",
+				"selectedIconPath": "static/img/社区2.png"
+			},
+			{
+				"pagePath": "pages/shopcart/shopcart",
+				"text": "购物车",
+				"iconPath": "static/img/购物车.png",
+				"selectedIconPath": "static/img/购物车2.png"
+			},
+			{
+				"pagePath":"pages/my/my",
+				"text":"个人中心",
+				"iconPath":"static/img/个人中心.png",
+				"selectedIconPath":"static/img/个人中心2.png"
+			}
+		]
+		
+	},
+	"permission": {
+	  "scope.userLocation": {
+	    "desc": "你的位置信息将用于小程序位置接口的效果展示" // 定位
+	  }
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationStyle":"custom",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#FFFFFF"
+	}
+	
+}

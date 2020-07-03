@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "select-address": "/components/yixuan-selectAddress/yixuan-selectAddress"
+  }
+}

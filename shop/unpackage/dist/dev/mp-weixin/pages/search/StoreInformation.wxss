@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.store-information.data-v-484a186e {
+  height: 330rpx;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.store-information .title.data-v-484a186e {
+  position: absolute;
+  left: 20rpx;
+  padding-top: 80rpx;
+}
+.store-information .title text.data-v-484a186e:nth-child(2) {
+  padding-left: 20rpx;
+  font-size: 40rpx;
+  line-height: 40rpx;
+}
+.store-information .shop-name.data-v-484a186e {
+  width: 100%;
+  position: absolute;
+  left: 25rpx;
+  top: 170rpx;
+}
+.store-information .shop-name button.data-v-484a186e {
+  width: 140rpx;
+}
+.store-information .shop-name image.data-v-484a186e {
+  height: 120rpx;
+  width: 120rpx;
+}
+.store-information .shop-name .shop-title.data-v-484a186e {
+  position: absolute;
+  left: 160rpx;
+  top: 20rpx;
+}
+.store-information .shop-name .shop-concern.data-v-484a186e {
+  position: absolute;
+  left: 300rpx;
+  top: 70rpx;
+}
+.store-information .shop-name .collection.data-v-484a186e {
+  position: absolute;
+  left: 590rpx;
+  top: -10rpx;
+}
+.store-information .shop-name .customer.data-v-484a186e {
+  position: absolute;
+  left: 590rpx;
+  top: 75rpx;
+}
+.store-information .lookup.data-v-484a186e {
+  position: absolute;
+  top: 350rpx;
+}
+.store-information .lookup text.data-v-484a186e {
+  padding-right: 25rpx;
+}
+.store-information .ordering.data-v-484a186e {
+  position: absolute;
+  top: 460rpx;
+  left: 150rpx;
+}
+.store-information .shop.data-v-484a186e {
+  position: relative;
+  top: 550rpx;
+}
+.store-information .content.data-v-484a186e {
+  padding-top: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.store-information .content .left.data-v-484a186e {
+  width: 70%;
+  margin-left: 25rpx;
+}
+.store-information .content .right.data-v-484a186e {
+  padding-left: 10rpx;
+  text-align: center;
+}
+.store-information .content .right .first.data-v-484a186e {
+  color: red;
+  font-size: 40rpx;
+}
+.store-information .content .right .second.data-v-484a186e {
+  margin-top: 5rpx;
+}
+.store-information .underside.data-v-484a186e {
+  padding-bottom: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 20rpx;
+}
+.store-information .underside .price text.data-v-484a186e {
+  margin-left: 20rpx;
+}
+.store-information .underside button.data-v-484a186e {
+  margin-left: 300rpx;
+}
+

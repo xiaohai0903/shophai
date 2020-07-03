@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "biaofun-datetime-picker": "/components/biaofun-datetime-picker/biaofun-datetime-picker"
+  }
+}
